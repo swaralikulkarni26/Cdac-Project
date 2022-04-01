@@ -16,7 +16,7 @@
 	integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 	crossorigin="anonymous">
 
-<title>OES | Login</title>
+<title>EES | Login</title>
 <style>
 #logreg-forms {
 	width: 412px;
@@ -81,21 +81,22 @@
 		width: 300px;
 	}
 }
+body {
+    background-color: powderblue;
+
+}
 </style>
 </head>
-<body>
+<body bg:"red">
 	<div id="logreg-forms">
-		<form class="form-signin" action="adminlogin" method="POST">
-			<h1 class="h3 mb-3 font-weight-normal" style="text-align: center">Administrator
-				Sign In</h1>
-			<hr />
-			<input type="email" class="form-control" placeholder="Email"
-				required="" autofocus="" name="email" /> <input type="password"
-				class="form-control" placeholder="Password" required="" name="pass" /><br>
+		<form class="form-signin" action="Authenticate.jsp" method="POST">
+		<h1 class="h3 mb-3 font-weight-normal" style="text-align: center">Administrator Sign In</h1>
+		 <hr />
+		<input type="email" class="form-control" placeholder="Email"required="" autofocus="" name="email" /> 
+		<input type="password"class="form-control" placeholder="Password" required="" name="password" /><br>
 
-			<input class="btn btn-success btn-block" type="submit" value="Login"
-				style="color: white;"><br />
-			<h5 style="color: red; text-align: center;">${err}</h5>
+		<input class="btn btn-secondary btn-lg btn-block" type="submit" value="Login"style="color: white;"><br/>
+		<h5 style="color: red; text-align: center;">${err}</h5>
 			<hr />
 		</form>
 

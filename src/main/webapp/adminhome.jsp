@@ -1,7 +1,7 @@
 <%-- 
     Document   : adminhome
-    Created on : 17 Nov, 2020, 4:00:35 PM
-    Author     : Abhay Shah
+    Created on : 01 April, 2022, 10:00:00 Am
+    Author     : Swarali Kulkarni
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -47,13 +47,13 @@ nav {
 			<div class="jumbotron">
 				<div class="container">
 					<h1 class="display-4">Welcome Admin!</h1>
-					<p>Welcome to OES!, an online examination system for colleges
+					<p>Welcome to EES!, an online examination system for colleges
 						and universities to conduct their exams.</p>
 					<p>Please Select the Subject which you want to add questions
 						to:</p>
 					<p>
 						<select name="examsubject">
-							<option name="py" value="Python">Python</option>
+							<option name="ja" value="Java">Java</option>
 							<option name="ej" value="Django">Django</option>
 						</select>
 					</p>
@@ -76,12 +76,12 @@ nav {
 				<div class="row">
 					<div class="col-md-4">
 						<h2>Admin</h2>
-						<p>OES provides Admin accounts which gives the user the
+						<p>EES provides Admin accounts which gives the user the
 							privilege to create, manipulate or delete the exam</p>
 					</div>
 					<div class="col-md-4">
 						<h2>How does it Work?</h2>
-						<p>OES makes use of JSP, Servlets, JSTL and a MySql database</p>
+						<p>EES makes use of JSP, Servlets and a MySql database</p>
 					</div>
 					<div class="col-md-4">
 						<h2>Terms & Conditions</h2>
@@ -94,7 +94,7 @@ nav {
 		</main>
 
 		<footer class="container">
-			<p>&copy; oes. All Rights Reserved</p>
+			<p>&copy; ees. All Rights Reserved</p>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

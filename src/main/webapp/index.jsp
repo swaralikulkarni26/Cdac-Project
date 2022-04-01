@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OES | Home</title>
+<title>EES | Home</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <script
@@ -44,7 +44,7 @@
 		<header>
 			<!--Navigation Bar-->
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-				<a class="navbar-brand" href="#"><b>ONLINE EXAMINATION
+				<a class="navbar-brand" href="#"><b>E-EXAMINATION
 						SYSTEM</b></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -62,7 +62,7 @@
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown03">
 								<a class="dropdown-item" href="login.jsp">Student</a> <a
-									class="dropdown-item" href="AdminLoginlogin.jsp">Admin</a>
+									class="dropdown-item" href="adminlogin.jsp">Admin</a>
 							</div></li>
 						<li class="nav-item"><a class="nav-link" href="register.jsp">Sign
 								Up</a></li>
@@ -91,7 +91,7 @@
 								<b>Easy to Use.</b>
 							</h1>
 							<p>A Simple and Easy to use Online Examination tool for
-								Colleges and Universities.</p>
+								Colleges and Universities and competative Exam .</p>
 							<p>
 								<a class="btn btn-success" href="register.jsp" role="button">Sign
 									Up</a>

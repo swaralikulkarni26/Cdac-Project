@@ -1,7 +1,7 @@
 <%-- 
     Document   : adminhome
-    Created on : 17 Nov, 2020, 4:00:35 PM
-    Author     : Abhay Shah
+    Created on : 01 April, 2022, 10:00:00 Am
+    Author     : Swarali Kulkarni
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -47,7 +47,7 @@ nav {
 		<header>
 			<!--Navigation Bar-->
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-				<a class="navbar-brand" href="#"><b>ONLINE EXAMINATION
+				<a class="navbar-brand" href="#"><b> E-EXAMINATION
 						SYSTEM</b></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -69,13 +69,13 @@ nav {
 			<div class="jumbotron">
 				<div class="container">
 					<h1 class="display-4">Welcome ${name}</h1>
-					<p>Welcome to OES!, an online examination system for colleges
-						and universities to conduct their exams. OES provides ease and
+					<p>Welcome to EES!, an online examination system for colleges
+						and universities to conduct their exams. EES provides ease and
 						maximum efficiency thus saving the organization's valuable time.</p>
 					<p>Please Select the Exam You Would like to take:</p>
 					<p>
 						<select name="selectedexam">
-							<option name="py" value="Python">Python</option>
+							<option name="ja" value="java">java</option>
 							<option name="ej" value="Django">Django</option>
 						</select>
 					</p>
@@ -87,12 +87,12 @@ nav {
 				<div class="row">
 					<div class="col-md-4">
 						<h2>User</h2>
-						<p>OES provides Admin accounts which gives the user the
+						<p>EES provides Admin accounts which gives the user the
 							privilege to create, manipulate or delete the exam</p>
 					</div>
 					<div class="col-md-4">
 						<h2>How does it Work?</h2>
-						<p>OES makes use of JSP, Servlets, JSTL and a MySql database</p>
+						<p>EES makes use of JSP, Servlets, JSTL and a MySql database</p>
 					</div>
 					<div class="col-md-4">
 						<h2>Terms & Conditions</h2>

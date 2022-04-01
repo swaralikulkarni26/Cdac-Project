@@ -39,7 +39,7 @@ nav {
 		<header>
 			<!--Navigation Bar-->
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-				<a class="navbar-brand" href="#"><b>ONLINE EXAMINATION
+				<a class="navbar-brand" href="#"><b>E-EXAMINATION
 						SYSTEM</b></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -70,8 +70,8 @@ nav {
 
 			<div class="jumbotron">
 				<div class="container">
-					<h1 class="display-4">About OES</h1>
-					<p>Welcome to OES!, An Online Examination System for Colleges
+					<h1 class="display-4">About EES</h1>
+					<p>Welcome to EES!, An Online Examination System for Colleges
 						and Universities to schedule their exams. If your organization
 						faces any challenges while conducting the exams or your
 						organization has any concerns regarding the system please contact
@@ -88,7 +88,7 @@ nav {
 				<div class="row">
 					<div class="col-md-4">
 						<h2>Admin</h2>
-						<p>OES provides institutions with an admin account to generate
+						<p>EES provides institutions with an admin account to generate
 							assessments and check student marks.</p>
 						<p>
 							<a class="btn btn-secondary" href="login.jsp" role="button">Login
@@ -97,7 +97,7 @@ nav {
 					</div>
 					<div class="col-md-4">
 						<h2>How does it Work?</h2>
-						<p>OES makes use of JSP, servlets, JSTL, expression langauge
+						<p>EES makes use of JSP, servlets, JSTL, expression langauge
 							and a MySQL database to provide its examination services.</p>
 						<p>
 							<a class="btn btn-secondary" href="login.jsp" role="button">Get

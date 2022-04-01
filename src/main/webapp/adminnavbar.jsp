@@ -1,7 +1,7 @@
 <%-- 
-    Document   : adminnavbar
-    Created on : 17 Nov, 2020, 6:13:12 PM
-    Author     : Abhay Shah
+    Document   : adminhome
+    Created on : 01 April, 2022, 10:00:00 Am
+    Author     : Swarali Kulkarni
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,7 +9,7 @@
 <header>
 	<!--Navigation Bar-->
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-		<a class="navbar-brand" href="#"><b>ONLINE EXAMINATION SYSTEM</b></a>
+		<a class="navbar-brand" href="#"><b>E-EXAMINATION SYSTEM</b></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarCollapse" aria-controls="navbarCollapse"
 			aria-expanded="false" aria-label="Toggle navigation">
