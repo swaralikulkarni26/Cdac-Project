@@ -23,20 +23,7 @@
 <link rel="canonical"
 	href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
-<style>
-body {
-	padding-top: 3.5rem;
-}
-
-nav {
-	font-family: sans-serif;
-}
-
-.navbar-brand {
-	font-size: 20px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="examscreen.css">
 
 </head>
 <body>
@@ -73,7 +60,7 @@ nav {
 						and universities to conduct their exams. EES provides ease and
 						maximum efficiency thus saving the organization's valuable time.</p>
 					<p>Please Select the Exam You Would like to take:</p>
-					<p>
+					
 						<select name="selectedexam">
 							<option name="ja" value="java">java</option>
 							<option name="ej" value="Django">Django</option>
@@ -105,7 +92,7 @@ nav {
 		</main>
 
 		<footer class="container">
-			<p>&copy; oes. All Rights Reserved</p>
+			<p>&copy; ees. All Rights Reserved</p>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -1,5 +1,4 @@
 
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,8 +6,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>EES | Home</title>
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script
@@ -16,25 +14,9 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-<link rel="canonical"
-	href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+<link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
-<style>
-.bd-placeholder-img {
-	font-size: 1.125rem;
-	text-anchor: middle;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
 
-@media ( min-width : 768px) {
-	.bd-placeholder-img-lg {
-		font-size: 3.5rem;
-	}
-}
-</style>
 
 <link rel="stylesheet" type="text/css" href="index.css">
 
@@ -125,11 +107,15 @@
 				data-slide="prev"> <span class="carousel-control-prev-icon"
 				aria-hidden="true"></span> <span class="sr-only">Previous</span>
 			</a> <a class="carousel-control-next" href="#myCarousel" role="button"
-				data-slide="next"> <span class="carousel-control-next-icon"
-				aria-hidden="true"></span> <span class="sr-only">Next</span>
+				data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+				<span class="sr-only">Next</span>
 			</a>
 		</div>
-
+		
 	</form>
 </body>
+
+<div id="footer"  style= "background-color: blue" "color:black">
+ Copyright © ees_cdac, 2022
+</div>
 </html>

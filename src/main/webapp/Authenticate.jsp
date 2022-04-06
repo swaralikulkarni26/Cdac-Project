@@ -25,7 +25,7 @@
     psSelect.setString(2, pass);
     result = psSelect.executeQuery();
     if(result.next())
-    	response.sendRedirect("adminhome.jsp");
+    	response.sendRedirect("adminHeader.jsp");
     else
     	{
     	
