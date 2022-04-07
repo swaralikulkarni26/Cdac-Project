@@ -66,14 +66,14 @@
 						xmlns="http://www.w3.org/2000/svg"
 						preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
 						<rect width="100%" height="100%" fill="#777" /></svg>
-					<img src="exam.png" />
+					<img src="E-exam4.png" />
 					<div class="container">
-						<div class="carousel-caption text-center">
-							<h1>
+						<div class="carousel-caption text-center" >
+							<h1 >
 								<b>Easy to Use.</b>
 							</h1>
 							<p>A Simple and Easy to use Online Examination tool for
-								Colleges and Universities and competative Exam .</p>
+								Colleges and Universities and competitive Exam .</p>
 							<p>
 								<a class="btn btn-success" href="register.jsp" role="button">Sign
 									Up</a>
