@@ -17,7 +17,7 @@
     ResultSet result=null;
     
     Class.forName("com.mysql.cj.jdbc.Driver");
-    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ejproj","root","1234");
+    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ejproj","root","Mona");
     psSelect=connection.prepareStatement("select * from adminlog where email=? and password=?");
     String user = request.getParameter("email");
     String pass= request.getParameter("password");

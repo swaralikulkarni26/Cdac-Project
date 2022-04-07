@@ -10,7 +10,7 @@ public class DatabaseConnection {
 
 	public static Connection getConnection() throws Exception {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		return DriverManager.getConnection("jdbc:mysql://localhost:3306/ejproj", "root", "1234");
+		return DriverManager.getConnection("jdbc:mysql://localhost:3306/ejproj", "root", "Mona");
 	}
 
 	public static ResultSet getResultFromSqlQuery(String SqlQueryString) {

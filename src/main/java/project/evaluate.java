@@ -36,13 +36,13 @@ public class evaluate extends HttpServlet {
             Connection conn = null;
             String url = "jdbc:mysql://localhost:3306/ejproj";
             String dbusername = "root";
-            String dbpassword = "root";
+            String dbpassword = "Mona";
             Statement statement = null;
             ResultSet resultset = null;
          response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
              try {
-                Class.forName("com.mysql.jdbc.Driver");
+                Class.forName("com.mysql.cj.jdbc.Driver");
             } catch (ClassNotFoundException ex) {
                 Logger.getLogger(login.class.getName()).log(Level.SEVERE, null, ex);
             }

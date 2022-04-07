@@ -52,7 +52,7 @@ public class login extends HttpServlet {
             String driverName="com.mysql.jdbc.Driver";
             String url = "jdbc:mysql://localhost:3306/ejproj";
             String dbuser = "root";
-            String dbpass = "Swarali@123";
+            String dbpass = "Mona";
             String sql = "select * from login where username=? and password=?";
             
             String name = "";

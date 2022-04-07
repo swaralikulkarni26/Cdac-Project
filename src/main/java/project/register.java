@@ -46,13 +46,13 @@ public class register extends HttpServlet {
  
             String url = "jdbc:mysql://localhost:3306/ejproj";
             String dbusername = "root";
-            String dbpassword = "root";
+            String dbpassword = "Mona";
             String query = "insert into login(username,email,password) values (?,?,?)"; 
 
             Connection con = null;
             PreparedStatement preparedStatement= null;
            
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
            
             try{
             
@@ -121,7 +121,6 @@ public class register extends HttpServlet {
      *
      * @return a String containing servlet description
      */
-    @Override
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>

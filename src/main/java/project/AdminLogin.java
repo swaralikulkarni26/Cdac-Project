@@ -38,10 +38,10 @@ public class AdminLogin extends HttpServlet {
             PreparedStatement ps = null;
             ResultSet rs = null;
             
-            String driverName="com.mysql.jdbc.Driver";
+            String driverName="com.mysql.cj.jdbc.Driver";
             String url = "jdbc:mysql://localhost:3306/ejproj";
             String dbuser = "root";
-            String dbpass = "1234";
+            String dbpass = "Mona";
             String sql = "select * from adminlog where email=? and password=?";
             
             String id = "";

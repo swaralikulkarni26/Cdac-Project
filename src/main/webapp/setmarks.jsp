@@ -14,10 +14,10 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <sql:setDataSource driver="com.mysql.jdbc.Driver"
+        <sql:setDataSource driver="com.mysql.cj.jdbc.Driver"
                            url="jdbc:mysql://localhost:3306/ejproj"
                            user="root"
-                           password="root"></sql:setDataSource>
+                           password="Mona"></sql:setDataSource>
         <sql:query var="userscore">
             select marks from login where email='${email}'  
         </sql:query>
